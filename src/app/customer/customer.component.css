@@ -1,0 +1,35 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  min-width: 300px;
+  overflow: auto;
+  width: 1025px;
+}
+
+.isbn-col {
+  flex: 0 0 100px !important;
+  white-space: unset !important;
+}
+
+.button-row {
+  margin: 10px 0;
+}
+
+.container{
+  /*background: linear-gradient(to bottom right, #ffffff, #0000ff);*/
+  background: url("../../assets/img/img.jpg") no-repeat right top;
+  margin-right: 200px;
+}
+
+.main-container{
+  background-image: linear-gradient(90deg, grey, white);
+  height: 98%;
+  width: 99%;
+  position: absolute;
+}
+
+.just-down
+{
+  margin-left: 2%;
+}
